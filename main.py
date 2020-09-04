@@ -49,28 +49,28 @@ courseletter = input("Enter your course 2 letter grade:")
 course2credit = float(input("Enter your course 2 credit:"))
 
 if courseletter == "A" or courseletter == "a":
-  print("Grade point for course 2 is: ",A)
+  print("Grade point for course 2 is:",A)
   gradepoint2 =+ A
 elif courseletter == "A-" or courseletter == "a-":
-  print("Grade point for course 2 is: ",Aminus)
+  print("Grade point for course 2 is:",Aminus)
   gradepoint2 =+ Aminus
 elif courseletter == "B+" or courseletter == "b+": 
-  print("Grade point for course 2 is: ",Bplus)
+  print("Grade point for course 2 is:",Bplus)
   gradepoint2 =+ Bplus
 elif courseletter == "B" or courseletter == "b":
-  print("Grade point for course 2 is: ",B)
+  print("Grade point for course 2 is:",B)
   gradepoint2 =+ B
 elif courseletter == "B-" or courseletter == "b-":
-  print("Grade point for course 2 is: ",Bminus)
+  print("Grade point for course 2 is:",Bminus)
   gradepoint2 =+ Bminus
 elif courseletter == "C+" or courseletter == "c+":
-  print("Grade point for course 2 is: ",Cplus)
+  print("Grade point for course 2 is:",Cplus)
   gradepoint2 =+ Cplus
 elif courseletter == "C" or courseletter == "c":
-  print("Grade point for couse 2 is: ",C)
+  print("Grade point for couse 2 is:",C)
   gradepoint2 =+ C
 elif courseletter == "D" or courseletter == "d":
-  print("Grade point for course 2 is: ",D)
+  print("Grade point for course 2 is:",D)
   gradepoint2 =+ D
 else:
   print("Grade point for course 2 is: ",Fandbelow)
