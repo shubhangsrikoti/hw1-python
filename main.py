@@ -36,7 +36,7 @@ elif courseletter == "C+" or courseletter == "c+":
   print("Grade point for course 1 is: ",Cplus)
   gradepoint1 =+ Cplus
 elif courseletter == "C" or courseletter == "c":
-  print("Grade point for couse 1 is: ",C)
+  print("Grade point for course 1 is: ",C)
   gradepoint1 =+ C
 elif courseletter == "D" or courseletter == "d":
   print("Grade point for course 1 is: ",D)
@@ -98,7 +98,7 @@ elif courseletter == "C+" or courseletter == "c+":
   print("Grade point for course 3 is: ",Cplus)
   gradepoint3 =+ Cplus
 elif courseletter == "C" or courseletter == "c":
-  print("Grade point for couse 3 is: ",C)
+  print("Grade point for course 3 is: ",C)
   gradepoint3 =+ C
 elif courseletter == "D" or courseletter == "d":
   print("Grade point for course 3 is: ",D)
