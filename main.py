@@ -11,8 +11,8 @@ C = 2.0
 D = 1.0
 Fandbelow = 0.0
 
-courseletter = input("Enter your course 1 letter grade:")
-course1credit = float(input("Enter your course 1 credit:"))
+courseletter = input("Enter your course 1 letter grade: ")
+course1credit = float(input("Enter your course 1 credit: "))
 
 gradepoint1 = 0
 gradepoint2 = 0
@@ -46,8 +46,8 @@ else:
   print("Grade point for course 1 is: ",Fandbelow)
   gradepoint1 =+ Fandbelow
 
-courseletter = input("Enter your course 2 letter grade:")
-course2credit = float(input("Enter your course 2 credit:"))
+courseletter = input("Enter your course 2 letter grade: ")
+course2credit = float(input("Enter your course 2 credit: "))
 
 if courseletter == "A" or courseletter == "a":
   print("Grade point for course 2 is:", A)
