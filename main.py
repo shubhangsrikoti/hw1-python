@@ -49,7 +49,7 @@ courseletter = input("Enter your course 2 letter grade:")
 course2credit = float(input("Enter your course 2 credit:"))
 
 if courseletter == "A" or courseletter == "a":
-  print("Grade point for course 2 is:",A)
+  print("Grade point for course 2 is:", A)
   gradepoint2 =+ A
 elif courseletter == "A-" or courseletter == "a-":
   print("Grade point for course 2 is:",Aminus)
