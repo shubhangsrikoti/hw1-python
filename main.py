@@ -19,28 +19,28 @@ gradepoint2 = 0
 gradepoint3 = 0
 
 if courseletter == "A" or courseletter == "a":
-  print("Grade point for course 1 is: ",A)
+  print("Grade point for course 1 is:",A)
   gradepoint1 =+ A
 elif courseletter == "A-" or courseletter == "a-":
-  print("Grade point for course 1 is: ",Aminus)
+  print("Grade point for course 1 is:",Aminus)
   gradepoint1 =+ Aminus
 elif courseletter == "B+" or courseletter == "b+": 
-  print("Grade point for course 1 is: ",Bplus)
+  print("Grade point for course 1 is:",Bplus)
   gradepoint1 =+ Bplus
 elif courseletter == "B" or courseletter == "b":
-  print("Grade point for course 1 is: ",B)
+  print("Grade point for course 1 is:",B)
   gradepoint1 =+ B
 elif courseletter == "B-" or courseletter == "b-":
-  print("Grade point for course 1 is: ",Bminus)
+  print("Grade point for course 1 is:",Bminus)
   gradepoint1 =+ Bminus
 elif courseletter == "C+" or courseletter == "c+":
-  print("Grade point for course 1 is: ",Cplus)
+  print("Grade point for course 1 is:",Cplus)
   gradepoint1 =+ Cplus
 elif courseletter == "C" or courseletter == "c":
-  print("Grade point for course 1 is: ",C)
+  print("Grade point for course 1 is:",C)
   gradepoint1 =+ C
 elif courseletter == "D" or courseletter == "d":
-  print("Grade point for course 1 is: ",D)
+  print("Grade point for course 1 is:",D)
   gradepoint1 =+ D
 else:
   print("Grade point for course 1 is: ",Fandbelow)
@@ -81,31 +81,31 @@ courseletter = input("Enter your course 3 letter grade: ")
 course3credit = float(input("Enter your course 3 credit: "))
 
 if courseletter == "A" or courseletter == "a":
-  print("Grade point for course 3 is: ",A)
+  print("Grade point for course 3 is:",A)
   gradepoint3 =+ A
 elif courseletter == "A-" or courseletter == "a-":
-  print("Grade point for course 3 is: ",Aminus)
+  print("Grade point for course 3 is:",Aminus)
   gradepoint3 =+ Aminus
 elif courseletter == "B+" or courseletter == "b+": 
-  print("Grade point for course 3 is: ",Bplus)
+  print("Grade point for course 3 is:",Bplus)
   gradepoint3 =+ Bplus
 elif courseletter == "B" or courseletter == "b":
-  print("Grade point in course 3 is: ",B)
+  print("Grade point in course 3 is:",B)
   gradepoint3 =+ B
 elif courseletter == "B-" or courseletter == "b-":
-  print("Grade point for course 3 is: ",Bminus)
+  print("Grade point for course 3 is:",Bminus)
   gradepoint3 =+ Bminus
 elif courseletter == "C+" or courseletter == "c+":
-  print("Grade point for course 3 is: ",Cplus)
+  print("Grade point for course 3 is:",Cplus)
   gradepoint3 =+ Cplus
 elif courseletter == "C" or courseletter == "c":
-  print("Grade point for course 3 is: ",C)
+  print("Grade point for course 3 is:",C)
   gradepoint3 =+ C
 elif courseletter == "D" or courseletter == "d":
-  print("Grade point for course 3 is: ",D)
+  print("Grade point for course 3 is:",D)
   gradepoint3 =+ D
 else:
-  print("Grade point for course 3 is: ",Fandbelow)
+  print("Grade point for course 3 is:",Fandbelow)
   gradepoint3 =+ Fandbelow
 
 gpa = (gradepoint1 * course1credit + gradepoint2 * course2credit + gradepoint3 * course3credit) / (course1credit + course2credit + course3credit)
