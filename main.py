@@ -67,7 +67,7 @@ elif courseletter == "C+" or courseletter == "c+":
   print("Grade point for course 2 is:",Cplus)
   gradepoint2 =+ Cplus
 elif courseletter == "C" or courseletter == "c":
-  print("Grade point for couse 2 is:",C)
+  print("Grade point for course 2 is:",C)
   gradepoint2 =+ C
 elif courseletter == "D" or courseletter == "d":
   print("Grade point for course 2 is:",D)
