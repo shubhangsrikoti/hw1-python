@@ -43,7 +43,7 @@ elif courseletter == "D" or courseletter == "d":
   print("Grade point for course 1 is:",D)
   gradepoint1 =+ D
 else:
-  print("Grade point for course 1 is: ",Fandbelow)
+  print("Grade point for course 1 is:",Fandbelow)
   gradepoint1 =+ Fandbelow
 
 courseletter = input("Enter your course 2 letter grade: ")
@@ -74,7 +74,7 @@ elif courseletter == "D" or courseletter == "d":
   print("Grade point for course 2 is:",D)
   gradepoint2 =+ D
 else:
-  print("Grade point for course 2 is: ",Fandbelow)
+  print("Grade point for course 2 is:",Fandbelow)
   gradepoint2 =+ Fandbelow
 
 courseletter = input("Enter your course 3 letter grade: ")
